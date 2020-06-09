@@ -4,7 +4,6 @@ MAINTAINER V. Kovpak <cn007b@gmail.com>
 
 RUN apt-get update --fix-missing
 
-
 # python
 RUN apt install -y \
   libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev \
